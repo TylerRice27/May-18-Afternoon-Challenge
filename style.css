@@ -1,0 +1,20 @@
+body {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: tan;
+
+}
+
+.top {
+    height: 65px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.small {
+    object-fit: cover;
+}
