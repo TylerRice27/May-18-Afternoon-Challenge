@@ -122,7 +122,7 @@ function drawCart() {
           <ul class="list-group ">
                     <li class="list-group-item  m-2 text-light bg-dark">
                         <p>${item.name}</p>
-                        <p>$${item.price}</p>
+                        <p>$${item.price.toFixed(2)}</p>
 
                     </li>
 
